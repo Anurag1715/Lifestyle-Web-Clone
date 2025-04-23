@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
+}
+
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(216, 174, 111);
+  color:rgb(32, 73, 108);
+  padding:20px;
+  
+}
+
+.center ul li {
+  list-style: none;
+  display: inline;
+  margin: 0px 10px;
+}
+
+.title {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.left {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: -200px;
+}
+
+.center {
+  flex: 4;
+  /* border:1px solid black; */
+}
+
+.search {
+  flex: 2;
+  /* border:1px solid black; */
+
+}
+
+.search input{
+  padding:10px;
+  width:20rem;
+  border-radius: 5px;
+
+}
+
+.right {
+  flex: 4;
+  /* border:1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  margin-left: -100px;
+}
+
+.signin {
+  margin-right: 20px; /* Adds space to the right of Signin / Signup */
+}
+
+.bannerbox img {
+  width: 100%;
+ 
+}
+
+.bannerSection {
+  width: 100%; /* Ensure the banner section itself takes full width */
+  margin: 10px 0px;
+}
+
+.bannerbox {
+  width: 100%; /* Ensure the banner box takes full width */
+}
+
+.menImages{
+  display:flex;
+  gap:10px;
+}
+
+.menImages img{
+  width:220px;
+  height:220px;
+}
+
+.footer{
+  width:100px;
+  display:flex;
+  
+}
